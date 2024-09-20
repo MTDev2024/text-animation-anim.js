@@ -34,3 +34,9 @@ h1 {
 h1 span {
     pointer-events: none;
 }
+
+
+img {
+    height: 140px;
+    width: auto;
+}
