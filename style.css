@@ -16,7 +16,10 @@ body {
 
 .container {
     text-align: center;
+    align-items: center;
     perspective: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -32,6 +35,23 @@ h1 {
 }
 
 h1 span {
+    pointer-events: none;
+}
+
+
+h2 {
+    font-family: Playfair Display;
+    transform-style: preserve-3d;
+    display: inline-flex; 
+    margin-top: 150px;
+    color: black;
+    font-weight: 80;
+    letter-spacing: 10px;
+    font-size: 190px;
+    cursor: pointer;
+}
+
+h2 span {
     pointer-events: none;
 }
 
